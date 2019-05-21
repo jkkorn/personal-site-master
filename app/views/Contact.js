@@ -94,9 +94,9 @@ const Contact = () => {
             onMouseEnter={() => setIsActive(false)}
             onMouseLeave={() => (idx < messages.length) && setIsActive(true)}
           >
-            <a href={validateText(message) ? `mailto:${message}@gmail.com` : ''}>
+            <a href={validateText(message) ? `mailto:${message}@mldKorn.com` : ''}>
               <span>{message}</span>
-              <span>@gmail.com</span>
+              <span>@mldKorn.com</span>
             </a>
           </div>
         </div>

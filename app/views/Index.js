@@ -13,13 +13,11 @@ const Index = () => (
         </div>
       </header>
       <p> Welcome :) Feel free to read more <Link to="/about">about me</Link>,
-      <p> You can get a more up to date feed of what I'm up to, by following me on 
-        <a href="https://www.instagram.com/eu_sou_o_jonathan"> Instagram </a>
-        <a href="https://www.medium.com/jkkorn"> Medium </a> and 
-        <a href="https://www.linkedin.com/in/jkkorn"> LinkedIn </a>
-      </p>
-      
-       
+        check out my {' '}
+        <Link to="/resume">resume</Link>, {' '}
+        <Link to="/projects">projects</Link>, {' '}
+        view <Link to="/stats">site statistics</Link>, {' '}
+        or <Link to="/contact">contact</Link> me.
       </p>
       
     </article>
