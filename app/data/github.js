@@ -18,7 +18,7 @@ const data = [
     label: 'Stars this repository has on github',
     key: 'stargazers_count',
     value: '0',
-    link: 'https://github.com/mldKorn/personal-site/stargazers',
+    link: 'https://github.com/jkkorn/personal-site/stargazers',
   }, {
     label: 'Number of people watching this repository',
     key: 'subscribers_count',
